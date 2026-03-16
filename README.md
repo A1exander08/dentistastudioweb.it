@@ -23,8 +23,6 @@ footer: con piva ect.
 
 DA FARE --> GRAFICA:
 
-- logo
-
 - img hero
 
 - imgs icone da inserire nell'intro
