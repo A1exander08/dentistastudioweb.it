@@ -23,19 +23,11 @@ footer: con piva ect.
 
 DA FARE --> GRAFICA:
 
-- img hero
-
-- imgs icone da inserire nell'intro
-
-- imgs rappresentative da inserire nell'intro
-
 - in REPORT inserire un report più convincente.
 
 - img CTA di persona soddisfatta o qualcosa di simile
 
 - la mia img con pc in mano -> aggiungendo con una freccia "il tuo professionista" + la homepage nel pc
-
-- in CHI SONO inserire 3 icone
 
 - bg in FOOTER
 
