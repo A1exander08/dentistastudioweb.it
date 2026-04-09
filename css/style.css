@@ -1357,42 +1357,6 @@
     gap: 1.25rem;
   }
 
-  #pricing-2421 .cs-button-solid {
-    font-size: 1rem;
-    line-height: clamp(2.875em, 5.5vw, 3.5em);
-    text-decoration: none;
-    font-weight: 700;
-    text-align: center;
-    min-width: 9.375rem;
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0 1.5rem;
-    background-color: var(--primary);
-    border-radius: 0.25rem;
-    color: #fff;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-  }
-
-  #pricing-2421 .cs-button-solid:before {
-    content: "";
-    width: 0%;
-    height: 100%;
-    background: #000;
-    opacity: 1;
-    border-radius: 0.25rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: width 0.3s;
-  }
-
-  #pricing-2421 .cs-button-solid:hover:before {
-    width: 100%;
-  }
-
   #pricing-2421 .cs-button-group {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
@@ -2058,6 +2022,49 @@
   }
 }
 
+/*-- -------------------------- -->
+<---        Pagespeed           -->
+<--- -------------------------- -*/
+@media only screen and (min-width: 0rem) {
+  #pagespeed{
+    padding: var(--sectionPadding);
+    position: relative;
+    z-index: 1;
+  }
+
+  #pagespeed .cs-container{
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(2rem, 4vw, 3rem);
+  }
+
+  #pagespeed .cs-content {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #pagespeed .cs-title {
+    max-width: 28ch;
+    font-size: clamp(1.5375rem, 7.9vw, 3.0625rem);
+    ;
+  }
+
+  #pagespeed .cs-text {
+    font-size: 1rem;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 0;
+    color: var(--bodyTextColor);
+    max-width: 100%;
+  }
+}
 
 
 /*-- -------------------------- -->
