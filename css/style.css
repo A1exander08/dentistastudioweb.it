@@ -937,7 +937,7 @@
 
   #hero-1951 .cs-content {
     text-align: left;
-    padding: clamp(3rem, 6vw, 5rem) 0;
+    /* padding: clamp(3rem, 6vw, 5rem) 0; */
     align-items: flex-start;
     align-self: center;
     order: 1;
@@ -1664,7 +1664,8 @@
     max-width: 39.375rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    text-align: center;
+    align-items: center;
     position: relative;
     z-index: 1;
   }
@@ -1813,6 +1814,8 @@
 @media only screen and (min-width: 64rem) {
   #subscribe-1718 .cs-content {
     position: initial;
+    align-items: flex-start;
+    text-align: left;
   }
 
   #subscribe-1718 .cs-form {
@@ -1870,7 +1873,8 @@
     max-width: 32.625rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
   }
 
   #sbsr-1432 .cs-text {
@@ -1995,6 +1999,8 @@
 
   #sbsr-1432 .cs-content {
     width: 50%;
+    align-items: flex-start;
+    text-align: left;
   }
 
   #sbsr-1432 .cs-image-group {
@@ -2062,6 +2068,18 @@
     margin: 0;
     color: var(--bodyTextColor);
     max-width: 100%;
+  }
+
+  #pagespeed .cs-image-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #pagespeed .cs-image-group img {
+    width: 100%;
+    height: auto;
   }
 }
 
