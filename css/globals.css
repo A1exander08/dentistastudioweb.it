@@ -44,6 +44,8 @@ p{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;letter-spacing:1px}
     display: flex;justify-content: center;align-items: center;gap: 0.5rem;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;letter-spacing: 3px;
     text-align: center;}
 .cta-phone img {width: 1.5rem;height: auto;display: block;}
+/* BTN - mobile */
+.btn-main.d-flex{justify-content: center;align-items: center;gap: 10px;}
 
 /* UTILI ******************************/
 .d-none{display:none!important}
